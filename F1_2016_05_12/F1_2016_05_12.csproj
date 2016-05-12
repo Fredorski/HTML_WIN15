@@ -112,7 +112,7 @@
     <Content Include="Robin.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Shirsad.html" />
+    <Content Include="Shirzad.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
