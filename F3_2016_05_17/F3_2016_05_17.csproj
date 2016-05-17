@@ -108,6 +108,7 @@
   <ItemGroup>
     <Content Include="images\Lars.jpg" />
     <Content Include="index.html" />
+    <Content Include="pages\FormularDemo.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Styles\stilig.css" />
