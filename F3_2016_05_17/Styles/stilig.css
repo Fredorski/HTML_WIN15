@@ -1,33 +1,47 @@
 ﻿body {
     background-color: whitesmoke;
+    color: darkblue;
 }
 
 #wrapper {
     background-color: aliceblue;
     max-width: 960px;
     min-width: 600px;
-    margin: 30px auto;
+    margin: 30px auto; /*uppe/nere och höger/vänster*/
+    margin: 30px auto 30px auto; /*Klockan!!!*/
     border: 5px solid black;
     padding: 50px;
     outline: 10px dotted hotpink;
 }
-img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20% 30% 40% 50%;
+    border: 1px solid black;
 }
-article{
-    width:715px;
-    background-color:red;
-    float:left;
-    margin-right:5px;
-    border:10px solid green;
+
+    img:hover {
+        border-radius: 50%;
+    }
+
+article {
+    width: 715px;
+    background-color: red;
+    float: left;
+    margin-right: 5px;
+    border: 10px solid green;
+    /*display: inline-block;*/
+    border-radius:30px;
 }
-aside{
-    width:220px;
-    background-color:blue;
-    float:left;
+
+aside {
+    width: 200px;
+    background-color: blue;
+    float: left;
+    border: 10px dotted green;
 }
-footer{
-    clear:both;
+
+footer {
+    clear: both;
 }
