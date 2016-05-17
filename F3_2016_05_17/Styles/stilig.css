@@ -1,2 +1,33 @@
 ﻿body {
+    background-color: whitesmoke;
+}
+
+#wrapper {
+    background-color: aliceblue;
+    max-width: 960px;
+    min-width: 600px;
+    margin: 30px auto;
+    border: 5px solid black;
+    padding: 50px;
+    outline: 10px dotted hotpink;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+article{
+    width:715px;
+    background-color:red;
+    float:left;
+    margin-right:5px;
+    border:10px solid green;
+}
+aside{
+    width:220px;
+    background-color:blue;
+    float:left;
+}
+footer{
+    clear:both;
 }
