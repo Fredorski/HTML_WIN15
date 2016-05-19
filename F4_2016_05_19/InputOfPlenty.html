@@ -2,27 +2,70 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-color: #8080ff;
+        }
+    </style>
 </head>
 <body>
     <h1>Input of plenty!</h1>
     <form>
         <!--STANDARD INPUT MED EN TEXTBOX ATT FYLLA I-->
         Aggresive kanins namn:
-        <input type="text" name="name" maxlength="4"  placeholder="Förnamn..." autofocus/><br />     
+        <input type="text" name="name" maxlength="4" placeholder="Förnamn..." autofocus /><br />
         <!--PASSWORD-->
         Password:
-        <input type="password" name="psw" maxlength="16"/><br />
+        <input type="password" name="psw" maxlength="16" /><br />
         <!--Check box-->
         Vilka färger gillar du?<br />
         <input type="checkbox" checked name="farg" value="Lila" /> Lila<br />
-        <input type="checkbox" name="farg" value="rosa"/> Rosa<br />
-        <input type="checkbox" name="farg" value="green"/> Grön<br />
+        <input type="checkbox" name="farg" value="rosa" /> Rosa<br />
+        <input type="checkbox" name="farg" value="green" /> Grön<br />
         <!--RADIO BUTTONS-->
         Kön:<br />
-        <input type="radio" name="gender" value="man"/>Man<br />
+        <input type="radio" name="gender" value="man" />Man<br />
         <input type="radio" name="gender" value="kvinna" />Kvinna<br />
-        <input type="radio" name="gender" value="androgyn" disabled/>Androgyn<br />
+        <input type="radio" name="gender" value="androgyn" disabled />Androgyn<br />
+        <input type="color" name="farg2" />
+        <!--DATALIST COOL...-->
+        <input type="text" name="Sex" list="myList">
+        <datalist id="myList">
+            <option value="male">If you go to the mens room</option>
+            <option value="female">If you go to the ladys</option>
+            <option value="andogyne">If you go somewhere else</option>
+        </datalist><br />
+        <!--EN DATALIST MED BILAR-->
+        <input name="carmodel"  list="cars"/>
+        <datalist id="cars">
+            <option value="Audi"/>
+            <option value="Alfa romeo" />
+            <option value="Alpin" />
+            <option value="AMC" />
+            <option value="Austin" />
+            <option value="Autobianchi" />
+            <option value="Avanti" />
+            <option value="BMC" />
+            <option value="BMW" />
+            <option value="Bugatti" />
+            <option value="Buick" />
+            <option value="Byd" />         
+        </datalist>
+        <!--Dropdown-->
+        <select name="fordon">
+            <optgroup label="Bilar">                
+                <option value="audi">Audi</option>
+                <option value="bmw">BMW</option>
+                <option value="ford">Ford</option>
+            </optgroup>
+            <optgroup label="Motorcycklar">
+                <option value="Yamaha">Yamaha</option>
+                <option value="Honda">Honda</option>
+                <option value="Suzuki">Suzuki</option>
+            </optgroup>
+        </select>
+
 
 
         <input type="submit" />
