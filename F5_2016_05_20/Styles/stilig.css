@@ -1,0 +1,12 @@
+﻿body {
+    /*background-color:red;*/
+}
+#moving{
+    border-radius: 30%/20%;
+    border: 3px solid black;
+    background-color: rgba(150,150,150,.8);
+    width: 140px;
+    position:fixed; /*relative och absolut*/
+    left: 50px; /*right*/
+    top: 10px;  /*bottom*/
+}
