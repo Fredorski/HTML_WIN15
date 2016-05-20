@@ -3,10 +3,28 @@
 }
 #moving{
     border-radius: 30%/20%;
-    border: 3px solid black;
+    border: 1px solid black;
     background-color: rgba(150,150,150,.8);
-    width: 140px;
+    width: 220px;
     position:fixed; /*relative och absolut*/
-    left: 50px; /*right*/
-    top: 10px;  /*bottom*/
+    right: 50px; /*right*/
+    bottom: 10px;  /*bottom*/
 }
+#moving ul {
+    list-style-type: none;
+}
+#moving li{
+    border: 2px solid rgba(75, 83, 170, 0.87);
+    background-color:#4cff00;
+    width:70%;
+    margin:5px;
+    padding: 7px;
+    font-size:1.4em;
+    border-radius:5px;
+}
+    #moving li a {
+        text-decoration:none;
+        text-transform: uppercase;
+        color: black;
+        font-weight:800;
+    }
