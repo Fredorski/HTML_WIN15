@@ -16,7 +16,9 @@
 aside#moving nav ul {
     list-style-type: none;
 }
-
+p::before{
+    content:"NISSE";
+}
 #moving li {
     border: 2px solid rgba(75, 83, 170, 0.87);
     background-color: #4cff00;
@@ -34,4 +36,14 @@ aside#moving nav ul {
         text-transform: uppercase;
         color: black;
         font-weight: bold; /*100-900 i jämna 100*/
+    }
+#cyckel {
+    transition-property: all;
+    transition-duration: 5s;
+}
+    #cyckel:hover {
+        border-radius: 30%/50%;
+        background-color: hotpink;
+        text-align:center;
+        transform: rotate(20deg);
     }
