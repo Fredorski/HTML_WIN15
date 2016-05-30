@@ -116,6 +116,8 @@
     <Content Include="Images\strawberry.png" />
     <Content Include="Images\summer.jpg" />
     <Content Include="Images\trees.jpg" />
+    <Content Include="index.html" />
+    <Content Include="index2.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />

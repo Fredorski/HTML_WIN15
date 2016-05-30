@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Transition - Transform</title>
+    <meta charset="utf-8" />
+    <style>
+        .change {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            -moz-transition-property: background-color; /*firefox*/
+            -o-transition-property: background-color; /*opera*/
+            /*-webkit-transition-property: background-color;*/ /*chrome, safari*/
+            -ms-transition-property: background-color; /*microsoft*/
+            transition-property: background-color;
+
+            transition-duration: 3s;
+        }
+
+            .change:hover {
+                background-color: black;
+                color: aqua;
+            }
+    </style>
+</head>
+<body>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+    <div class="change">Hej</div>
+</body>
+</html>
