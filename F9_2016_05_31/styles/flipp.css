@@ -1,2 +1,48 @@
 ﻿body {
+    background-color: #a01ee5;
+}
+/*3d-animeringar köärs i en container som vi stylar.
+    containern med fast storlek gör att vi inte 
+    påverkar omgivningen under själva animeringen.*/
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    /*preserve-3d motverkar att ytan minskas i 2d
+        och sen ökas i en fejkad 3d */
+    transition: transform 1s;
+}
+/*Beskriver hur korten ska visas:*/
+/*section.container div.card figure {*/
+.card figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+}
+/*Färgsätter framsidan*/
+.card .front{
+    background-color: honeydew;
+}
+/*Färgsätter baksidan*/
+.card .back{
+    background-color:coral;
+    transform: rotateY(180deg);
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.tvau .card:hover{
+    transform:rotateX(180deg);
 }
