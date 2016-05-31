@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A52A68DC-EC39-4EFC-9A89-0BEC1BD580C7}</ProjectGuid>
+    <ProjectGuid>{37B86671-4CA5-45D9-8507-A27DF833434F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>F8_2016_05_30</RootNamespace>
-    <AssemblyName>F8_2016_05_30</AssemblyName>
+    <RootNamespace>F9_2016_05_31</RootNamespace>
+    <AssemblyName>F9_2016_05_31</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,8 +94,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Skew_Propertyn.PNG" />
-    <Content Include="index5_Skew.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,23 +106,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\automobile.png" />
-    <Content Include="Images\bananas.jpg" />
-    <Content Include="Images\bananas2.jpg" />
-    <Content Include="Images\car.png" />
-    <Content Include="Images\car2.jpg" />
-    <Content Include="Images\oranges.jpg" />
-    <Content Include="Images\penguin.png" />
-    <Content Include="Images\strawberry.png" />
-    <Content Include="Images\summer.jpg" />
-    <Content Include="Images\trees.jpg" />
     <Content Include="index.html" />
-    <Content Include="index2.html" />
-    <Content Include="index3.html" />
-    <Content Include="index4.html" />
-    <Content Include="PenguinSpinner.html" />
+    <Content Include="pages\flipping.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="styles\flipp.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -143,9 +129,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>29405</DevelopmentServerPort>
+          <DevelopmentServerPort>35938</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:29405/</IISUrl>
+          <IISUrl>http://localhost:35938/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
