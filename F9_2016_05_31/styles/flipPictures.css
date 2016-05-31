@@ -1,0 +1,42 @@
+﻿body {
+    background-color: hotpink;
+}
+/*yttre containern som håller storleken*/
+.album_container {
+    position: relative;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transform-style: preserve-3d;
+    transition: all 1.3s ease-in-out;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+    padding: 10px;
+    color: #aaa;
+    background-color: white;
+}
+.ett .album_container:hover .picture{
+    transform:rotateY(180deg);
+}

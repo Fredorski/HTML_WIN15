@@ -8,6 +8,7 @@
     width: 200px;
     height: 200px;
     position: relative;
+    perspective:700px;
     font-size: 7rem;
     text-align: center;
 }
