@@ -31,12 +31,20 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility:hidden;
+    backface-visibility: hidden;
     transform: rotateY(180deg);
     padding: 10px;
     color: #aaa;
     background-color: white;
 }
-.ett .album_container:hover .picture{
-    transform:rotateY(180deg);
+
+.ett .album_container:hover .picture {
+    transform: rotateY(180deg);
+}
+.tvau .back{
+    transform: rotateZ(180deg) rotateY(180deg)
+}
+
+.tvau .album_container:hover .picture {
+    transform: rotateX(180deg);
 }
